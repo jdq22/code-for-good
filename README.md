@@ -29,11 +29,6 @@ After we decided on the spec for our product, we hit Photostop and started mocki
 ### How to Measure Engagement
 If we had more time, we'd have produced a beautiful analytics dashboard, with search capabilities by mentor/mentee pairs, by curriculum, by class (sets of pairs). You'd be able to filter by date, export the graph into a spreadsheet, create links for specific graphs. It'd be easy for the iMentor staff member to see the healthiness of the mentee/mentor relationships. You'd be able to judge if the program is working for the mentee.
 
-## Scorer Class Architecture
-
-
-## Application Program Interface
-
 ## Database Design
 
 Below you'll find the sql statements to recreate our database. We decided on MySQL because it's what we're most familiar with. The database mainly stores scores tied to a user and curriculum. Because there are fewer curriculums than emails, we only provided the support for curriculum storage.
