@@ -21,13 +21,17 @@ We also attempted to implement keyword matching between the emails and curriculu
 
 The minimum score a writer can get is 1, with a maximum of 5.  
 
-We wanted to use the Stanford Part-Of-Speech Tagger but didn't have enough time to finish implementing it.
+We wanted to use the Stanford Part-Of-Speech Tagger but didn't have enough time to finish implementing it. In the future, the parser would also be able to tell the difference between a writer's opinions and examples. The higher scored emails tend to elaborate more, saying "I think" and then "because." The parser should somehow remember what was discussed in the past to detect longstanding themes of discussion. What is the mentee interested in? What keeps him more engaged? How does the mentor keep engaging the mentee? Are there certain topics that are more engaging?
 
 ## Scorer Class Architecture
 
 ## Application Program Interface
 
 ## Database Design
+
+Below you'll find the sql statements to recreate our database. We decided on MySQL because it's what we're most familiar with. The database mainly stores scores tied to a user and curriculum. Because there are fewer curriculums than emails, we only provided the support for curriculum storage.
+
+
     CREATE TABLE `Curriculum` ( // Typo corrected here but not in the API
       `C_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
       `C_text` varchar(10000) NOT NULL,
