@@ -23,6 +23,15 @@ The minimum score a writer can get is 1, with a maximum of 5.
 
 We wanted to use the Stanford Part-Of-Speech Tagger but didn't have enough time to finish implementing it. In the future, the parser would also be able to tell the difference between a writer's opinions and examples. The higher scored emails tend to elaborate more, saying "I think" and then "because." The parser should somehow remember what was discussed in the past to detect longstanding themes of discussion. What is the mentee interested in? What keeps him more engaged? How does the mentor keep engaging the mentee? Are there certain topics that are more engaging?
 
+### Our Platform Is Awesome.
+Why? Because it's very similar to the current iMentor platform!
+
+### How to Keep Mentors and Mentees Engaged
+
+
+### How to Measure Engagement
+If we had more time, we'd have produced a beautiful analytics dashboard, with search capabilities by mentor/mentee pairs, by curriculum, by class (sets of pairs). You'd be able to filter by date, export the graph into a spreadsheet, create links for specific graphs. It'd be easy for the iMentor staff member to see the healthiness of the mentee/mentor relationships. You'd be able to judge if the program is working for the mentee. We're sorry we aren't super humans and didn't implement every desirable feature perfectly.
+
 ## Scorer Class Architecture
 
 ## Application Program Interface
