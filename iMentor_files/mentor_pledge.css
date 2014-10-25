@@ -1,0 +1,609 @@
+/* line 29, ../sass/mentor_pledge.scss */
+.read-more, #mentor_pledge #pledge_next-steps .pledge_step-learn .submit {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 4px 8px;
+  color: #fff;
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #22b6db;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
+}
+/* line 44, ../sass/mentor_pledge.scss */
+.read-more:hover, #mentor_pledge #pledge_next-steps .pledge_step-learn .submit:hover {
+  color: #fff;
+  background: #ff7d05;
+}
+
+/* line 50, ../sass/mentor_pledge.scss */
+#mentor_pledge {
+  font-family: 'Arial', 'Helvetica', sans;
+  /** TAKE THE PLEDGE **/
+  /** NEXT STEPS **/
+  /** VIDEO / PIPELINE **/
+  /* PARTNERS */
+}
+/* line 54, ../sass/mentor_pledge.scss */
+#mentor_pledge #main {
+  border: 0;
+  width: 980px;
+}
+/* line 59, ../sass/mentor_pledge.scss */
+#mentor_pledge .link-to {
+  position: relative;
+  text-decoration: none;
+  color: #ff7d05;
+}
+/* line 64, ../sass/mentor_pledge.scss */
+#mentor_pledge .link-to span {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: .05s;
+  -moz-transition-duration: .05s;
+  -o-transition-duration: .05s;
+  transition-duration: .05s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+  width: 17px;
+  height: 19px;
+  background: url('../images/pledge/images/learn_more_arrow.png?1338412440');
+  position: absolute;
+  right: 6px;
+  top: 0;
+}
+/* line 78, ../sass/mentor_pledge.scss */
+#mentor_pledge .link-to:hover span {
+  right: 3px;
+}
+/* line 86, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area {
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  padding: 44px;
+}
+/* line 93, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area h1 {
+  height: 32px;
+  font-size: 33px;
+  line-height: 33px;
+  margin: 0 0 20px;
+  font-weight: normal;
+  color: #006699;
+}
+/* line 101, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area h1 em {
+  font-weight: bold;
+}
+/* line 106, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area h2 {
+  color: #22b6db;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 3px;
+}
+/* line 113, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454545;
+}
+/* line 121, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area blockquote {
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/pledge_copy_30.png?1338747712');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: normal;
+  font-style: italic;
+  color: #333;
+  border: 0;
+  height: 170px;
+  margin-bottom: 3px;
+}
+/* line 136, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area .content-module {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 140, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area .content-module .left-module {
+  float: left;
+  width: 580px;
+}
+/* line 145, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area .content-module .right-module {
+  float: right;
+  width: 260px;
+  color: #454545;
+}
+/* line 151, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area .content-module .right-module h3 {
+  color: #656565;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+/* line 159, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area .content-module .right-module p {
+  font-size: 13px;
+  line-height: 21px;
+}
+/* line 166, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area .content-module .pledge_step {
+  float: left;
+  width: 260px;
+  margin-right: 20px;
+}
+/* line 171, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area .content-module .pledge_step h3 {
+  color: #006699;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+/* line 177, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area .content-module .pledge_step p {
+  font-size: 14px;
+  margin-right: 16px;
+}
+/* line 186, ../sass/mentor_pledge.scss */
+#mentor_pledge #content-area .pledge_cta p {
+  margin-left: 1px;
+  font-size: 19px;
+  line-height: 26px;
+  margin-right: 150px;
+}
+/* line 203, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-the-pledge {
+  background-image: url('../images/pledge/images/MenteeMentors.jpg?1338866729');
+  background-repeat: no-repeat;
+  background-position: 100% -28px;
+  position: relative;
+  height: 470px;
+  -webkit-transition-property: height;
+  -moz-transition-property: height;
+  -o-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: .35s;
+  -moz-transition-duration: .35s;
+  -o-transition-duration: .35s;
+  transition-duration: .35s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+/* line 214, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-the-pledge.hide {
+  height: 0;
+}
+/* line 218, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-the-pledge h1 {
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/take_the_pledge.png?1341537306');
+  background-repeat: no-repeat;
+}
+/* line 224, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge {
+  display: block;
+  width: 340px;
+  background: #ff7d05;
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/fb_login.png?1338412440');
+  background-repeat: no-repeat;
+  margin: 21px 0 21px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* line 237, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 242, ../sass/mentor_pledge.scss */
+#mentor_pledge .pledge_why-pledge {
+  height: 362px;
+}
+/* line 244, ../sass/mentor_pledge.scss */
+#mentor_pledge .pledge_why-pledge img {
+  border: 1px solid #e8e8e8;
+  margin-bottom: 21px;
+}
+/* line 249, ../sass/mentor_pledge.scss */
+#mentor_pledge .pledge_why-pledge h3 {
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/why_take_the_pledge.png?1338413102');
+  background-repeat: no-repeat;
+}
+/* line 252, ../sass/mentor_pledge.scss */
+#mentor_pledge .pledge_social_connection {
+  clear: both;
+  margin: 21px 0 27px;
+}
+/* line 256, ../sass/mentor_pledge.scss */
+#mentor_pledge .pledge_social_connection #pledge_count {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  font-size: 44px;
+  line-height: 44px;
+  color: #ff9900;
+}
+/* line 264, ../sass/mentor_pledge.scss */
+#mentor_pledge .pledge_social_connection h3 {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  font-size: 21px;
+  color: #838383;
+  line-height: 46px;
+  margin: 0 0 0 9px;
+}
+/* line 274, ../sass/mentor_pledge.scss */
+#mentor_pledge .no-fb {
+  color: #838383;
+  padding-left: 5px;
+}
+/* line 279, ../sass/mentor_pledge.scss */
+#mentor_pledge .show-more {
+  display: block;
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/see-other-ways-to-spread-the-word-and-get-involved.png?1341883553');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  width: 332px;
+  height: 19px;
+}
+/* line 287, ../sass/mentor_pledge.scss */
+#mentor_pledge .node-body {
+  margin: 0px;
+}
+/* line 290, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps {
+  height: 0;
+  margin-bottom: 48px;
+  background: #fff;
+  -webkit-transition-property: height;
+  -moz-transition-property: height;
+  -o-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: .35s;
+  -moz-transition-duration: .35s;
+  -o-transition-duration: .35s;
+  transition-duration: .35s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+  border-bottom: 1px solid #e8e8e8;
+}
+/* line 302, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step {
+  padding-bottom: 48px;
+}
+/* line 306, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps.show {
+  height: 634px;
+}
+/* line 310, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_thanks {
+  text-align: center;
+}
+/* line 314, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps h1 {
+  color: #838383;
+  font-size: 33px;
+  margin: 0 0 30px;
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/thanks.png?1338473927');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 322, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps h2 {
+  color: #22b6db;
+  font-size: 30px;
+  padding: 30px 0 24px;
+  border-top: 1px solid #e8e8e8;
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/take_next_steps.png?1338473927');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 332, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps span {
+  display: block;
+  height: 204px;
+  width: 258px;
+}
+/* line 338, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 342, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps ul li {
+  padding: 0 0 0 16px;
+  background-image: url('../images/pledge/images/bullet.png?1338474087');
+}
+/* line 348, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps p {
+  margin-bottom: 9px;
+}
+/* line 353, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step-share h3 {
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/steps_share.png?1338473927');
+  background-repeat: no-repeat;
+}
+/* line 357, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step-share a {
+  display: block;
+  float: left;
+  width: 34px;
+  height: 34px;
+  margin-right: 6px;
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/share.png?1338475632');
+  background-repeat: no-repeat;
+}
+/* line 365, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step-share a:hover {
+  background-position: 0 100%;
+}
+/* line 369, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step-share a.tweet {
+  background-position: 50% 0;
+}
+/* line 373, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step-share a.tweet:hover {
+  background-position: 50% 100%;
+}
+/* line 378, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step-share a.gplus {
+  background-position: 100% 0;
+}
+/* line 382, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step-share a.gplus:hover {
+  background-position: 100% 100%;
+}
+/* line 390, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step-learn h3 {
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/steps_learn.png?1338473927');
+  background-repeat: no-repeat;
+}
+/* line 392, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step-learn #fld_email_address_pledge {
+  font-family: Arial;
+  font-size: 10px;
+  border: 1px solid #E8E8E8;
+  padding: 3px;
+  width: 140px;
+  line-height: 20px;
+}
+/* line 400, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step-learn .submit {
+  border: 0;
+  width: auto;
+}
+/* line 408, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_next-steps .pledge_step-mentor h3 {
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/steps_mentor.png?1338473927');
+  background-repeat: no-repeat;
+}
+/* line 417, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring .pledge_learn-what-it-takes {
+  clear: both;
+  display: block;
+  position: relative;
+  width: 184px;
+  height: 24px;
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/become-a-mentor.png?1338865176');
+  background-repeat: no-repeat;
+}
+/* line 428, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring .pledge_video h2 {
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/mentoring_makes_a_difference.png?1338412440');
+  background-repeat: no-repeat;
+}
+/* line 431, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring .pledge_video_container {
+  margin: 20px 0;
+}
+/* line 437, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring .pledge_pipeline h3 {
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/education_pipeline.png?1338582222');
+  background-repeat: no-repeat;
+}
+/* line 441, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring ul {
+  margin: 24px 0;
+  padding: 0;
+}
+/* line 445, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring ul li {
+  position: relative;
+  padding: 0;
+  background-color: transparent;
+  text-transform: lowercase;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 60px 0 0 58px;
+  background-image: url('../images/pledge/images/education_pipeline_graphic.png?1338414788');
+  background-repeat: no-repeat;
+  margin-bottom: 27px;
+}
+/* line 457, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring ul li strong {
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  display: block;
+  font-size: 24px;
+  width: 56px;
+  height: 29px;
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/education_pipeline_data.png?1338414832');
+  background-repeat: no-repeat;
+}
+/* line 469, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring ul li.graduate-high-school {
+  color: #006699;
+  background-position: 0 0;
+}
+/* line 472, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring ul li.graduate-high-school strong {
+  background-position: 0 2px;
+}
+/* line 478, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring ul li.enroll-in-college {
+  color: #22b6db;
+  background-position: 0 -96px;
+}
+/* line 482, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring ul li.enroll-in-college strong {
+  background-position: 0 -94px;
+}
+/* line 487, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring ul li.graduate-college {
+  color: #ff7d05;
+  background-position: 0 -192px;
+}
+/* line 490, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_about-mentoring ul li.graduate-college strong {
+  background-position: 0 -189px;
+}
+/* line 500, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_partners {
+  position: relative;
+  margin: 39px 10px;
+}
+/* line 505, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_partners h3 {
+  color: #838383;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/100_mentor.png?1338472225');
+  background-repeat: no-repeat;
+}
+/* line 511, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_partners .link-to {
+  width: 356px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-transform: lowercase;
+  overflow: hidden;
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('../images/pledge/images/read-more_100_mentor.png?1338472225');
+  background-repeat: no-repeat;
+}
+/* line 520, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_partners ul {
+  overflow: hidden;
+  *zoom: 1;
+  list-style: none;
+  margin: 72px 0 0;
+  padding: 0;
+}
+/* line 526, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_partners ul li {
+  float: left;
+  margin: 0 37px 56px;
+}
+/* line 530, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_partners ul li.row-2 {
+  margin: 0 34px;
+}
+/* line 535, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_partners ul li.first {
+  clear: both;
+  margin-left: 0;
+}
+/* line 539, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_partners ul li.first.row-2 {
+  margin-left: 10px;
+}
+/* line 545, ../sass/mentor_pledge.scss */
+#mentor_pledge #pledge_partners ul li.last {
+  margin-right: 0;
+}

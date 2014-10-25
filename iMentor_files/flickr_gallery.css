@@ -1,0 +1,129 @@
+/* line 13, ../sass/flickr_gallery.scss */
+.flickr-photo-gallery-wrapper {
+  position: relative;
+  width: 502px;
+}
+
+/* line 21, ../sass/flickr_gallery.scss */
+.flickr-photo-gallery {
+  position: relative;
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
+  border: 1px solid #EEE;
+}
+
+/* line 29, ../sass/flickr_gallery.scss */
+.flickr-photo-gallery-slideshow {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 500px;
+  height: 375px;
+}
+
+/* line 37, ../sass/flickr_gallery.scss */
+.gallery-thumb-link {
+  display: block;
+  margin: 12px 0;
+}
+
+/* line 42, ../sass/flickr_gallery.scss */
+.flickr-photo-gallery-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 375px;
+  display: block;
+}
+/* line 51, ../sass/flickr_gallery.scss */
+.flickr-photo-gallery-slide .caption {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=99);
+  opacity: 0.99;
+  position: absolute;
+  bottom: 0;
+  padding: 12px;
+  background: #fff;
+  width: 100%;
+}
+
+/* line 61, ../sass/flickr_gallery.scss */
+.flickr-photo-gallery-slide img {
+  display: block;
+  height: 375px;
+  margin: 0 auto;
+}
+
+/* line 67, ../sass/flickr_gallery.scss */
+.flickr-photo-thumbnails {
+  overflow: hidden;
+  *zoom: 1;
+  width: 500px;
+  margin-top: 10px;
+}
+
+/* line 73, ../sass/flickr_gallery.scss */
+.flickr-photo-gallery-thumb {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 0px;
+  border: 3px solid #fff;
+  width: 65px;
+  height: 65px;
+}
+/* line 80, ../sass/flickr_gallery.scss */
+.flickr-photo-gallery-thumb.active {
+  border-color: #ff7d05;
+}
+/* line 84, ../sass/flickr_gallery.scss */
+.flickr-photo-gallery-thumb:hover {
+  border-color: #17A2DC;
+}
+
+/* line 89, ../sass/flickr_gallery.scss */
+.flickr-photo-gallery-thumb img {
+  display: block;
+  width: 65px;
+  height: 65px;
+}
+
+/* line 97, ../sass/flickr_gallery.scss */
+#flickr-gallery-next,
+#flickr-gallery-prev {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  top: 154px;
+  height: 42px;
+  width: 42px;
+  margin: 0;
+  background-image: url("/sites/all/themes/capal/images/sprite.png");
+  z-index: 200;
+}
+
+/* line 110, ../sass/flickr_gallery.scss */
+#flickr-gallery-next {
+  right: 8px;
+  background-position: -158px 0;
+}
+
+/* line 115, ../sass/flickr_gallery.scss */
+#flickr-gallery-next:hover {
+  background-position: -158px -45px;
+}
+
+/* line 120, ../sass/flickr_gallery.scss */
+#flickr-gallery-prev {
+  left: 8px;
+  background-position: -108px 0;
+}
+
+/* line 125, ../sass/flickr_gallery.scss */
+#flickr-gallery-prev:hover {
+  background-position: -108px -45px;
+}
