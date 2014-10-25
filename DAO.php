@@ -136,7 +136,7 @@ class DAO {
 
 		try {
 			$dbhandle = $this->getDBConnection();
-			$stmt = $dbhandle->prepare("INSERT INTO Curriculum VALUES('',?,?)");
+			$stmt = $dbhandle->prepare("INSERT INTO Curriculim VALUES('',?,?)");
 			$stmt->bindValue(1, $text, PDO::PARAM_STR);
 			$stmt->bindValue(2, $name, PDO::PARAM_STR);
 			$stmt->execute();
@@ -155,7 +155,7 @@ class DAO {
 		try {
 			$dbhandle = $this->getDBConnection();
 			$Curricula = array();
-			$stmt = $dbhandle->prepare("SELECT * FROM Curriculum");
+			$stmt = $dbhandle->prepare("SELECT * FROM Curriculim");
 			$stmt->execute();
 			$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 			foreach ($rows as $row) {

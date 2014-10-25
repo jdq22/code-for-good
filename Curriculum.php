@@ -17,8 +17,8 @@ class Curriculum {
 	public function __construct($id, $text, $name) {   
 	
         $this->id = $id;
-        $this->score = $text;
-        $this->date = $name;
+        $this->text = $text;
+        $this->name = $name;
 		
     } // End of Curriculum constructor
 	

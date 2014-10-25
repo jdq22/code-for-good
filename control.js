@@ -11,7 +11,11 @@ $(document).ready(function() {
         function(data) {
 			$("#scoreDisplay").append(data); 
         }));
-    });
+    });	
+	
+	// Handle adding a new curriculum
+	$("#addCurriculumSubmit").click(function() {
+        $.get("Curriculum_Handler.php")});
 	
 	// Load all the scores.
 	$.ajax("Score_Handler.php?getAll=true")
@@ -28,8 +32,10 @@ $(document).ready(function() {
 			
 	// Load all curricula into the curricula list.
 	$.ajax("Curriculum_Handler.php?getAll=true")
-		 .done(function(data) {
+		 .done(function(data) {	
+		 
 			$("#curricula-list").append(data);
+			
 			})
 			.fail(function() {
 			alert( "error" + data );
@@ -37,6 +43,8 @@ $(document).ready(function() {
 			.always(function() {
 			alert( "complete" + data );
 			});
+			
+	
 	/*
     $("#deletebutton").click(function() {
         var ids = "";

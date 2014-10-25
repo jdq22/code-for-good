@@ -36,25 +36,26 @@ class Curriculum_Controller {
     public function getCurriculum($id) {
 	
         $dao = new DAO();
-        $result = $dao->getScoreById($id);
+        $result = $dao->getCurriculumById($id);
         if (!$result instanceof Curriculum) {
             return $result;
         }
-		$array =  ["id" => $result->id, "text" => $result->text, "name" => strtotime($result->name),];
+		$array =  ["id" => $id, "text" => $result->text, "name" => $result->name,];
         return $array;
 		
     } // End of getCurriculum()
 	
 	// Returns array versions of all Curricula objects to display.
-    public function getAllCurricula) {
+    public function getAllCurricula() {
 	
         $dao = new DAO();
+		$array = array();
         $result = $dao->getAllCurricula();
 		foreach ($result as $r) {
 			if (!$r instanceof Curriculum) {
 				return $r;
 			}
-			$array[] =  ["id" => $r->id, "text" => $r->text, "name" => strtotime($r->name),];
+			$array[] =  ["id" => $r->id, "text" => $r->text, "name" => $r->name,];
 		}
 		return $array;
 		

@@ -16,6 +16,7 @@ require_once "Score_Handler.php";
 <h2>All Curricula</h2>
 <h3>Select a curriculum to bring its full text up.</h3>
 </div> <!-- End of curricula-list -->
+<div id="curricula-display"></div>
 <form name="addScoreForm">
 <select id="scoreScoreField" name="scoreScoreField">
 <option value="1">1/5</option>
