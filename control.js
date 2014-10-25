@@ -28,8 +28,7 @@ $(document).ready(function() {
 			.always(function() {
 			alert( "complete" + data );
 			});
-			
-			
+
 	// Load all curricula into the curricula list.
 	$.ajax("Curriculum_Handler.php?getAll=true")
 		 .done(function(data) {	

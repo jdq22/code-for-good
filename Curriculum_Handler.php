@@ -30,7 +30,7 @@ else if (!empty($_GET['getId'])) {
 	}
 	
 }
-else if (!empty($_GET['curNameField']) && !empty($_GET['curTextField']) && $_GET['curNameField'] != "" && $_GET['curTextField'] != "" && $_GET['curNameField'] != NULL && $_GET['cTextField'] != NULL) {
+else if (!empty($_GET['curNameField']) && !empty($_GET['curTextField']) && $_GET['curNameField'] != "" && $_GET['curTextField'] != "" && $_GET['curNameField'] != NULL && $_GET['curTextField'] != NULL) {
 	
 	$sc = new Curriculum_Controller();
 	echo $sc->addCurriculum($_GET['curTextField'], $_GET['curNameField']);

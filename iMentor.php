@@ -1,3 +1,9 @@
+<?php 
+
+session_start();
+require_once "Score_Handler.php";
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!-- saved from url=(0038)http://www.imentor.org/become-a-mentor -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" xmlns:og="http://opengraphprotocol.org/schema/" class="js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -29,8 +35,16 @@
 <!--[if lt IE 8]>
 <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/capal/ie-lt8.css?9" />
 <![endif]-->
+        <script src="jquery-1.11.1.min.js"></script>
+        <script src="control.js"></script>
+		<meta charset="UTF-8">
   <link type="text/css" rel="stylesheet" media="all" href="./iMentor_files/volunteering.css">
-  <script type="text/javascript" src="./iMentor_files/jquery.js"></script>
+  <style type="text/css">
+  .curriculum {
+	font-size: large;
+	line-height: 1.8em;
+	}
+	</style>
 <script type="text/javascript" src="./iMentor_files/drupal.js"></script>
 <script type="text/javascript" src="./iMentor_files/clickandpledge.js"></script>
 <script type="text/javascript" src="./iMentor_files/extlink.js"></script>
@@ -240,32 +254,38 @@ hello this is your warning
 
       <div id="content" class="equalheight-column"><div id="content-inner">
   <!-- Di change-->
-  <h1>Welcome Mentee Kyle!</h1><h2><a href="iMentor.php">New Features Available</a></h2>
+  <h1>Welcome Mentee Kyle!</h1>
   <section id="curriculum_content">
-	<p>What is a Growth Mindset?
-Think about Tiger Woods and Michael Jordan. These two athletes are legends in their 
-sports.
-How many times have you heard people say, “they were born to play golf /basketball?” 
-Do you believe when it comes to achieving success you were either born with the ability 
-and skills to make it or not? 
-There are two ways of looking at this: with a fixed mindset or a growth mindset. A fixed 
-mindset is a belief that your intelligence is innate/you were born with it. A growth 
-mindset, on the other hand, is a belief that success is a combination of the aptitude 
-you’re born with AND the amount of effort and hard work you put in. 
-We don't know if Michael or Tiger were "born champions" but here's what we do know: 
-Tiger started playing golf at age 2 and has practiced for hours every day since then to 
-achieve the success he has today. Michael Jordan similarly practiced 3-4 hours every 
-day to build on some of the innate skills he may have been born with. Without all of 
-this practice and hard work, would these two champions have achieved the success 
-they have today?
-Malcolm Gladwell, an author and sociologist, wrote a book called Outliers. In it, he 
-says, "The closer psychologists look at the careers of the gifted, the smaller the role 
-innate talent seems to play and the bigger the role preparation seems to play." He 
-found that the most talented students, musicians and athletes had gradually increased 
-their practice while growing up until they had logged over 10,000 hours by the age of 
-20. The magic number seems to be 10,000 hours. That's the equivalent of about 20 
-hours of practice every week for 10 years
-	</p>
+	  <div id="newfeatures">
+	  
+		 <div id="curricula-list">
+		<h2>All Curricula</h2>
+		<h3>Select a curriculum to bring its full text up and grade an email against it.</h3><br />
+		</div> <!-- End of curricula-list -->
+		<div id="curricula-display"></div>
+		<br /><hr /><br />
+		<h2>Record Score</h2>
+		<h3>Record an email score manually.</h3><br />
+		<form name="addScoreForm">
+		<select id="scoreScoreField" name="scoreScoreField">
+		<option value="1">1/5</option>
+		<option value="2">2/5</option>
+		<option value="3">3/5</option>
+		<option value="4">4/5</option>
+		<option value="5">5/5</option>
+		</select>
+		<input type="text" id="scoreDateField" name="scoreDateField" placeholder="Score Date" />
+		<button id="addScoreSubmit">Add Score</button>
+		</form>
+		
+
+		<div id="scoreDisplay">
+
+		</div>
+
+		
+	  </div> <!-- End of newfeatures -->
+	  
 	</section>
 	<section id="submit_email">
 	<form action="upload.php" method="post" enctype="multipart/form-data">
