@@ -1,0 +1,35 @@
+#line{
+background: dimgray;
+height: 6px;
+}
+
+#curriculum_content{
+width: 90%;
+margin: 20px !important;
+}
+.uk-button-primary {
+  margin: 5px 0;
+  width:200px;
+  background-color: #009dd8;
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(top, #00b4f5, #008dc5);
+  background-image: linear-gradient(to bottom, #00b4f5, #008dc5);
+  border-color: rgba(0, 0, 0, 0.2);
+  border-bottom-color: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+.uk-button-primary:hover,
+.uk-button-primary:focus {
+  background-color: #00aff2;
+  color: #ffffff;
+  background-image: none;
+}
+.uk-button-primary:active,
+.uk-button-primary.uk-active {
+  background-color: #008abf;
+  color: #ffffff;
+  background-image: none;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-top-color: rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
