@@ -24,10 +24,9 @@ The minimum score a writer can get is 1, with a maximum of 5.
 We wanted to use the Stanford Part-Of-Speech Tagger but didn't have enough time to finish implementing it. In the future, the parser would also be able to tell the difference between a writer's opinions and examples. The higher scored emails tend to elaborate more, saying "I think" and then "because." The parser should somehow remember what was discussed in the past to detect longstanding themes of discussion. What is the mentee interested in? What keeps him more engaged? How does the mentor keep engaging the mentee? Are there certain topics that are more engaging?
 
 ### Our Platform Is Awesome.
-Why? Because it's very similar to the current iMentor platform!
+Why? Because it's very similar to the current iMentor platform!  
 
-### How to Keep Mentors and Mentees Engaged
-
+After we decided on the spec for our product, we hit Photostop and started mocking up a UI design. The mockup went through two iterations, and we settled on [this](https://trello-attachments.s3.amazonaws.com/544b3bf4aced8bebfabbf5e9/1200x800/ddc849c3f2663913e720f85926b61c01/UIv2.jpg). This only displays the email input area, but ideally there'd also be a landing page that displays all the user's metadata and a report on the analytics of the user's scores. The idea of having a clickable list of all the curriculums on the lefthand side is to show you where you're going and where you've been. The mentee or mentor will have access to all the curriculums already done - that is, the mentee or mentor can go back to that prompt. For future curriculums, only the topic is displayed, and the button is grayed out and not clickable. We want the mentees and mentors to be able to review what they've discussed and learned over the year. Hopefully looking back on the 9th grade curricula as a 12th grader will help the 9th grader feel nostalgic and better measure his growth.
 
 ### How to Measure Engagement
 If we had more time, we'd have produced a beautiful analytics dashboard, with search capabilities by mentor/mentee pairs, by curriculum, by class (sets of pairs). You'd be able to filter by date, export the graph into a spreadsheet, create links for specific graphs. It'd be easy for the iMentor staff member to see the healthiness of the mentee/mentor relationships. You'd be able to judge if the program is working for the mentee. We're sorry we aren't super humans and didn't implement every desirable feature perfectly.
